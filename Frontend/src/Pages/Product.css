@@ -1,0 +1,13 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width:100%;
+    height:100vh;
+}
+.product-btn{
+    padding: 0.5rem 0.7rem;
+    background-color: purple;
+    color: white;
+}

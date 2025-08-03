@@ -1,0 +1,86 @@
+.main-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+
+    background: rgba(93, 20, 127, 1.0);
+    background: linear-gradient(225deg, rgba(93, 20, 127, 1.0), rgba(6, 182, 58, 1.0));
+}
+
+.sub-container {
+    background-color: rgb(13, 12, 12);
+    padding: 1rem;
+    min-height: 370px;
+    color: white;
+    width: 280px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.signup-form {
+    text-align: center;
+    margin: 10px;
+}
+
+.form-container {
+    display: flex;
+    align-items: start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.name-label {
+    font-size: large;
+    margin-top: 4px;
+}
+
+.name-input {
+    border: none;
+    border-bottom: 1px solid white;
+    background-color: black;
+    color: white;
+    font-size: medium;
+}
+
+.email-label {
+    font-size: large;
+    margin-top: 4px;
+}
+
+.email-input {
+    border: none;
+    border-bottom: 1px solid white;
+    background-color: black;
+    color: white;
+    font-size: medium;
+}
+
+.password-label {
+    font-size: large;
+    margin-top: 4px;
+}
+
+.pass-input {
+    border: none;
+    border-bottom: 1px solid white;
+    background-color: black;
+    color: white;
+    font-size: medium;
+}
+
+.btn {
+    padding: 3px 7px;
+    margin: 3px 0px;
+}
+
+.dispath {
+    color: white
+}
